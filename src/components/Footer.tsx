@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
       <div>
-        <section className=" sm:pt-16 bg-black ">
-          <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl text-white">
-            <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12 pl-52">
-              <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
+       <section className="pt-8 sm:pt-16 bg-black">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl text-white">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-y-8 gap-x-6 lg:gap-x-12">
+            <div className="col-span-2 lg:col-span-2 lg:pr-8">
                 <img
                   className="w-auto h-9"
                   src="https://bllimousines.com/wp-content/uploads/2022/05/rsz_jpeg-300x63.jpg"

@@ -7,7 +7,7 @@ type FleetProps = {
 
 const Fleet = (props: FleetProps ) => {
   return (
-    <div className="">
+    <div >
       {/* Title and Description */}
       <div
         className={cn(
@@ -34,7 +34,7 @@ const Fleet = (props: FleetProps ) => {
 
       {/* Fleet Cards */}
 
-      <FleetCards ButtonTextColors="text-black"/>
+      <FleetCards ButtonTextColors="text-black"/ >
     </div>
   );
 };

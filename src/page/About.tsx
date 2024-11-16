@@ -6,12 +6,7 @@ const About = () => {
      
 <nav className="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5]">
     
-    <div className="flex md:hidden">
-        <button id="hamburger">
-          <img className="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
-          <img className="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
-        </button>
-    </div>
+    
    
     <div className="toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded">
         <a href="tel:+123">
