@@ -1,5 +1,5 @@
 import { SquareArrowOutUpRight } from "lucide-react";
-
+import { Link } from "react-router-dom";
 
 function FleetCards() {
   
@@ -25,12 +25,13 @@ function FleetCards() {
             Experience comfort and sophistication with our sleek 2-passenger Luxury Sedan, perfect for business or personal travel.
           </p>
           <a
-            href="/booking"
+            
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
-            <i className="book">
+            <Link to="/booking"><i className="book">
               <SquareArrowOutUpRight />
             </i>
+            </Link>
           </a>
         </div>
       </div>
@@ -55,7 +56,7 @@ function FleetCards() {
             Experience comfort and sophistication with our sleek 2-passenger Luxury Sedan, perfect for business or personal travel.
           </p>
           <a
-            href="#"
+             href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
             <i className="book">
@@ -85,7 +86,7 @@ function FleetCards() {
             Experience comfort and sophistication with our sleek 2-passenger Luxury Sedan, perfect for business or personal travel.
           </p>
           <a
-            href="#"
+              href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
             <i className="book">
@@ -117,7 +118,7 @@ function FleetCards() {
             Experience comfort and sophistication with our sleek 2-passenger Luxury Sedan, perfect for business or personal travel.
           </p>
           <a
-            href="#"
+              href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
             <i className="book">
@@ -147,7 +148,7 @@ function FleetCards() {
             Experience comfort and sophistication with our sleek 2-passenger Luxury Sedan, perfect for business or personal travel.
           </p>
           <a
-            href="#"
+              href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
             <i className="book">
@@ -177,7 +178,7 @@ function FleetCards() {
             Experience comfort and sophistication with our sleek 2-passenger Luxury Sedan, perfect for business or personal travel.
           </p>
           <a
-            href="#"
+              href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
             <i className="book">
