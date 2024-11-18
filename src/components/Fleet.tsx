@@ -3,6 +3,7 @@ import FleetCards from "./FleetCards";
 
 type FleetProps = {
   bannerTextColor: "text-white" | "text-black";
+  ButtonTextColors: "text-white" | "text-black";
 };
 
 const Fleet = (props: FleetProps ) => {
@@ -34,7 +35,17 @@ const Fleet = (props: FleetProps ) => {
 
       {/* Fleet Cards */}
 
-      <FleetCards ButtonTextColors="text-black"/ >
+      <FleetCards/>
+      <div className="flex justify-center items-center pb-3">
+        <button
+          className={cn(
+            "inline py-3 px-10 border border-[#ff004f]  rounded-lg transition-colors duration-500 hover:bg-[#ff004f]",
+           props.ButtonTextColors
+          )}
+        >
+          Show More
+        </button>
+      </div>
     </div>
   );
 };

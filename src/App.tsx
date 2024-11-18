@@ -44,7 +44,7 @@ function App() {
         },
         {
           path: "/fleet",
-          element: <Fleet bannerTextColor="text-black"  />,
+          element: <Fleet bannerTextColor="text-black"  ButtonTextColors="text-black" />,
         },
       ],
     },

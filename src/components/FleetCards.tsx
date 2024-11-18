@@ -1,11 +1,7 @@
 import { SquareArrowOutUpRight } from "lucide-react";
-import { cn } from "../utils/cn";
 
-type FeedButtonCard = {
-  ButtonTextColors: "text-white" | "text-black";
-};
 
-function FleetCards(props: FeedButtonCard) {
+function FleetCards() {
   
 
   return (
@@ -199,16 +195,7 @@ function FleetCards(props: FeedButtonCard) {
 
 
        
-      <div className="flex justify-center items-center">
-        <button
-          className={cn(
-            "inline py-3 px-10 border border-[#ff004f]  rounded-lg transition-colors duration-500 hover:bg-[#ff004f]",
-           props.ButtonTextColors
-          )}
-        >
-          Show More
-        </button>
-      </div>
+     
     </div>
     
     

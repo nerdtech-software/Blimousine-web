@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 import { cn } from "../utils/cn";
 
 type SeeMoreButton = {
   ButtonTextColor: "text-white" | "text-black";
   HeaderColor: "text-white" | "text-black";
 };
+
 const Service = (props: SeeMoreButton) => {
   return (
     <div id="services" className="py-8">
@@ -102,9 +104,15 @@ const Service = (props: SeeMoreButton) => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <button className={cn("inline py-3 px-10 border border-[#ff004f] text-white rounded-lg transition-colors duration-500 hover:bg-[#ff004f]",props.ButtonTextColor)}>
-          Show More
-        </button>
+      <Link to="/service">
+      <button
+            className={cn(
+              "inline py-3 px-10 border border-[#ff004f] rounded-lg transition-colors duration-500 hover:bg-[#ff004f]",
+              props.ButtonTextColor
+            )}
+          >
+        Show More
+          </button></Link>
       </div>
     </div>
   );

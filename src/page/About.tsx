@@ -19,20 +19,12 @@ const About = () => {
 </nav>
 {/* <!-- hero seciton --> */}
 <div className="relative w-full h-[320px]" id="home">
-    <div className="absolute inset-0 opacity-70">
+    <div className="absolute inset-0 ">
         <img src="https://bllimousines.com/wp-content/uploads/2024/05/DSC_7339-2-scaled.jpg" alt="Background Image" className="object-cover object-center w-full h-full" />
         
 
     </div>
-    <div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between">
-        <div className="md:w-1/2 mb-4 md:mb-0">
-            <h1 className="text-grey-700 font-medium text-4xl md:text-5xl leading-tight mb-2"></h1>
-            <p className="font-regular text-xl mb-8 mt-4">OBL Limousine Chauffeur Service</p>
-            <a href="#contactUs"
-                className="px-6 py-3 bg-[#c8a876] text-white font-medium rounded-full hover:bg-[#c09858]  transition duration-200">Contact
-                Us</a>
-        </div>
-    </div>
+    
 </div>
 
 
@@ -40,7 +32,7 @@ const About = () => {
     <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div className="max-w-lg">
-                <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">About Us</h2>
+                <h2 className="text-3xl font-bold text-black mb-8 text-center">About Us</h2>
                 <p className="mt-4 text-gray-600 text-lg">
                     Bappa flour mill provides our customers with the highest quality products and services. We offer a
                     wide variety of flours and spices to choose from, and we are always happy to help our customers find

@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="bg-black">
       <Intro />
-      <Fleet bannerTextColor="text-white" />
+      <Fleet bannerTextColor="text-white" ButtonTextColors="text-white" />
       <Service ButtonTextColor="text-white" HeaderColor="text-white"/>
       <Marquee />      
     </div>
