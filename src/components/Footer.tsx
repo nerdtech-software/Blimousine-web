@@ -66,7 +66,7 @@ const Footer = () => {
                 <ul className="mt-6 space-y-4">
                   <li>
                     <a
-                      href="#"
+                      href="/about"
                       className="flex text-base transition-all duration-200 hover:text-Fire focus:text-Fire"
                     >
                       About
@@ -74,7 +74,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/service"
                       className="flex text-base transition-all duration-200 hover:text-Fire focus:text-Fire"
                     >
                       Features
@@ -82,7 +82,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/about"
                       className="flex text-base transition-all duration-200 hover:text-Fire focus:text-Fire"
                     >
                       Works
@@ -90,7 +90,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/service"
                       className="flex text-base transition-all duration-200 hover:text-Fire focus:text-Fire"
                     >
                       Career
@@ -106,7 +106,7 @@ const Footer = () => {
                 <ul className="mt-6 space-y-4">
                   <li>
                     <a
-                      href="#"
+                      href="/service"
                       className="flex text-base transition-all duration-200 hover:text-Fire focus:text-Fire"
                     >
                       Customer Support
@@ -143,7 +143,7 @@ const Footer = () => {
             <hr className="mt-16 mb-5 border-gray-200" />
   
             <p className="text-sm text-center text-gray-600">
-              © Copyright 2021, All Rights Reserved by Postcraft
+              © Copyright 2024, All Rights Reserved by nerdTech
             </p>
           </div>
         </section>

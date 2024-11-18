@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import FleetCards from "../components/FleetCards";
 import { cn } from "../utils/cn";
 
@@ -37,13 +38,14 @@ const Fleet = (props: FleetProps ) => {
 
       <FleetCards/>
       <div className="flex justify-center items-center pb-3">
+     
         <button
           className={cn(
             "inline py-3 px-10 border border-Fire  rounded-lg transition-colors duration-500 hover:bg-Fire",
            props.ButtonTextColors
           )}
         >
-          Show More
+      <Link to="/fleet">Show More</Link>   
         </button>
       </div>
     </div>
