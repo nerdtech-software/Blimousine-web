@@ -1,6 +1,6 @@
-import Fleet from "../components/Fleet";
 import Intro from "../components/Intro";
 import Marquee from "../components/Marquee";
+import Fleet from "./Fleet";
 import Service from "./Service";
 
 const Home = () => {

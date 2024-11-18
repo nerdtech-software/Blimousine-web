@@ -1,10 +1,11 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Fleet from "./components/Fleet";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Review from "./components/Review";
 import About from "./page/About";
+import Booking from "./page/Booking";
 import Contact from "./page/Contact";
+import Fleet from "./page/Fleet";
 import Home from "./page/Home";
 import Service from "./page/Service";
 
@@ -41,6 +42,10 @@ function App() {
         {
           path: "/about",
           element: <About />,
+        },
+        {
+          path: "/booking",
+          element: <Booking />,
         },
         {
           path: "/fleet",

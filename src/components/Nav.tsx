@@ -1,10 +1,6 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
   return (
     <nav className="bg-black border-b border-black shadow-2xl">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -16,10 +12,8 @@ const Nav = () => {
           />
         </Link>
         <button
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 text-white focus:ring-gray-200"
           aria-controls="navbar-dropdown"
-          aria-expanded={isMenuOpen}
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -37,12 +31,7 @@ const Nav = () => {
             />
           </svg>
         </button>
-        <div
-          className={`${
-            isMenuOpen ? "block" : "hidden"
-          } w-full md:block md:w-auto`}
-          id="navbar-dropdown"
-        >
+        <div className="hidden md:block md:w-auto" id="navbar-dropdown">
           <ul className="flex flex-col font-medium p-4 md:flex-row md:space-x-8 md:p-0 text-white">
             <li>
               <Link
@@ -52,50 +41,15 @@ const Nav = () => {
                 Home
               </Link>
             </li>
-            <li className="relative">
-              <button
-                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                className="flex items-center justify-between w-full py-2 px-3 hover:text-red-500 md:w-auto md:hover:text-red-700"
+            <li>
+              <Link
+                to="/service"
+                className="block py-2 px-3 hover:text-red-500 md:hover:text-red-700"
               >
                 Services
-                <svg
-                  className="w-2.5 h-2.5 ml-2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m1 1 4 4 4-4"
-                  />
-                </svg>
-              </button>
-              {isDropdownOpen && (
-                <div className="absolute top-10 left-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow-lg dark:bg-gray-700 dark:divide-gray-600">
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    <li>
-                      <Link
-                        to="/service"
-                        className=" px-4 py-2 hover:text-red-500 md:hover:text-red-700"
-                      >
-                        Service
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/settings"
-                        className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600"
-                      >
-                        Settings
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              )}
+              </Link>
             </li>
+              
             <li>
               <Link
                 to="/about"

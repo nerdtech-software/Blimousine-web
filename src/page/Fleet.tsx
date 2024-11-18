@@ -1,5 +1,5 @@
+import FleetCards from "../components/FleetCards";
 import { cn } from "../utils/cn";
-import FleetCards from "./FleetCards";
 
 type FleetProps = {
   bannerTextColor: "text-white" | "text-black";
@@ -39,7 +39,7 @@ const Fleet = (props: FleetProps ) => {
       <div className="flex justify-center items-center pb-3">
         <button
           className={cn(
-            "inline py-3 px-10 border border-[#ff004f]  rounded-lg transition-colors duration-500 hover:bg-[#ff004f]",
+            "inline py-3 px-10 border border-Fire  rounded-lg transition-colors duration-500 hover:bg-Fire",
            props.ButtonTextColors
           )}
         >
