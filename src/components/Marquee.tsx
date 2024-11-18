@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 
 
 const Marquee = () => {
@@ -60,9 +62,9 @@ const Marquee = () => {
           </div>
           </div>
           <div className="flex justify-center items-center">
-        <button className="inline py-3 mt-10 px-10 border border-[#ff004f] text-white rounded-lg transition-colors duration-500 hover:bg-[#ff004f]">
+    <Link to="/review"><button className="inline py-3 mt-10 px-10 border border-[#ff004f] text-white rounded-lg transition-colors duration-500 hover:bg-[#ff004f]">
           Show More
-        </button>
+        </button></Link>
       </div>
       <hr className="mt-16  border-gray-200" />
   
