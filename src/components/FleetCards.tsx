@@ -59,9 +59,10 @@ function FleetCards() {
              href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
-            <i className="book">
+            <Link to="/booking"><i className="book">
               <SquareArrowOutUpRight />
             </i>
+            </Link>
           </a>
         </div>
       </div>
@@ -89,9 +90,10 @@ function FleetCards() {
               href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
-            <i className="book">
+           <Link to="/booking"><i className="book">
               <SquareArrowOutUpRight />
             </i>
+            </Link>
           </a>
         </div>
       </div>
@@ -121,9 +123,10 @@ function FleetCards() {
               href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
-            <i className="book">
+            <Link to="/booking"><i className="book">
               <SquareArrowOutUpRight />
             </i>
+            </Link>
           </a>
         </div>
       </div>
@@ -151,9 +154,10 @@ function FleetCards() {
               href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
-            <i className="book">
+            <Link to="/booking"><i className="book">
               <SquareArrowOutUpRight />
             </i>
+            </Link>
           </a>
         </div>
       </div>
@@ -181,9 +185,10 @@ function FleetCards() {
               href="/booking"
             className="mt-4 text-[#ff004f] bg-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-lg"
           >
-            <i className="book">
+             <Link to="/booking"><i className="book">
               <SquareArrowOutUpRight />
             </i>
+            </Link>
           </a>
         </div>
       </div>
